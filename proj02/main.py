@@ -35,7 +35,7 @@ class Graph:
 
     def __init__(self, N: int, arcs: list[tuple[int, int, int]]):
         """
-        Generate a directional graph's adjacency matrix and each node's adjacency list off of a Pajek file's data.
+        Generate a graph's adjacency matrix and each node's adjacency list off of a Pajek file's data.
 
         Parameters
         ----------
